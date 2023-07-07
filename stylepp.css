@@ -1,0 +1,121 @@
+/* google fonts  */
+ *{
+    font-family: serif;
+    /* height: 200px; */
+    /* width: 200px; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+ img{
+    width: 200px;
+    height: 200px;
+    /* position: relative; */
+    /* height:10px; */
+    /* width: 10px; */
+    border-radius: 50%;
+    background-color: pink;
+    /* padding: 3px; */
+ } 
+
+ img .profile{
+    /* width: 50%; */
+
+    /* height: 10%; */
+    /* width: 10%; */
+    object-fit: cover;
+    border-radius: 60%;
+ }
+
+ body{
+    height: 100vh;
+    /* width: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palegreen;
+ }
+ .profile{
+    max-width: 300px;
+    height: 60%;
+    background-color: darkkhaki;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 20px;
+
+ }
+
+ .profile .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .text .name{
+    font-size: 20px;
+    font-weight: normal;
+ }
+
+ .profile .media{
+    display: flex;
+    /* color: brown; */
+
+    align-items: center;
+     
+ }
+
+ .media .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkolivegreen;
+    font-size: 20px;
+    width: 60%;
+    border-radius: 50%;
+    margin: 0px 8px;
+    background-color: burlywood;
+    text-decoration: none;
+
+ }
+ .profile .button{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+ }
+
+ .button{
+    margin: 0px;
+    padding: 5px 12px;
+    font-size: 18px;
+    color: greenyellow;
+    background-color: red;
+    cursor: pointer;
+
+ }
+
+ .profile .logo{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: lightblue;
+    background-color: coral;
+    padding: 0px 20px;
+    position: relative;
+    border-right: 2px solid pink;
+
+ }
+
+ .data:last-child{
+    border-right: none;
+
+ }
+ .data i{
+    font-size: 15px;
+    margin-right: 2px;
+ }
+
+
+
+
+
+   
